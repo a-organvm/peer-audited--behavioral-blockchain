@@ -84,7 +84,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy API to Render (beta)
-        uses: johnbeynon/render-deploy-action@v0.0.8
+        uses: johnbeynon/render-deploy-action@v0.0.9
         with:
           service-id: ${{ secrets.RENDER_BETA_API_SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY }}
@@ -99,7 +99,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy Web to Render (beta)
-        uses: johnbeynon/render-deploy-action@v0.0.8
+        uses: johnbeynon/render-deploy-action@v0.0.9
         with:
           service-id: ${{ secrets.RENDER_BETA_WEB_SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY }}
